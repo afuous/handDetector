@@ -1,0 +1,4 @@
+**/*.sw[a-p]
+**/.DS_Store
+**/*.class
+**/__pycache__

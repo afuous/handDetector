@@ -1,5 +1,15 @@
 # handDetector
-A java program written using OpenCV that will execute a specified script whenever the left or right hand is raised or lowered
+
+---
+
+## Update
+
+I tried to get this working again but the fact that I originally made this with a now-old version of OpenCV on Windows with Java made that annoying. It seemed easier to rewrite it in Python. To use the hand detector, run `handDetector.py`, which requires OpenCV and numpy. Custom actions can be put in `actions.py`; the defaults are for playing the pong demo. To detect your hand, the program needs to calibrate at first, so put your hands up and down as instructed then press space.
+
+---
+
+A java program written using OpenCV that will execute a specified script whenever the left or right hand is raised or lowered.
+
 ## Compiling and Running
 You will need to have OpenCV installed for java. To compile, use `javac -cp opencv-2410.jar HandDetector.java`. Use a different classpath if you have a different version of OpenCV. To run, use `java -cp opencv-2410.jar;. HandDetector.java`. It can be packaged into an executable jar file by creating a `manifest.mf` file with the following contents:
 ```
