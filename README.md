@@ -4,7 +4,7 @@
 
 ## Update
 
-I tried to get this working again but the fact that I originally made this with a now-old version of OpenCV on Windows with Java made that annoying. It seemed easier to rewrite it in Python. To use the hand detector, run `handDetector.py`, which requires OpenCV and numpy. Custom actions can be put in `actions.py`; the defaults are for playing the pong demo. To detect your hand, the program needs to calibrate at first, so put your hands up and down as instructed then press space.
+I tried to get this working again but the fact that I originally made this with a now-old version of OpenCV on Windows with Java made that annoying. It seemed easier to rewrite it in Python. To use the hand detector, run `handDetector.py`, which requires OpenCV and numpy (on Arch Linux, [use this](https://bbs.archlinux.org/viewtopic.php?id=231061): `pacman -S python-numpy opencv opencv-samples hdf5`). Custom actions can be put in `actions.py`; the defaults are for playing the pong demo. To detect your hand, the program needs to calibrate at first, so put your hands up and down as instructed then press space.
 
 ---
 
